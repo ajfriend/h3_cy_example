@@ -14,4 +14,3 @@ purge:
 	-@find . -type f -name '*.so' | xargs rm -r
 	-@find . -type d -name '*.ipynb_checkpoints' | xargs rm -r
 	-@find . -type f -name '*.c' | xargs rm -r
-
