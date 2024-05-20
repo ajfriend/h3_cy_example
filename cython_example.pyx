@@ -1,4 +1,3 @@
-#cython: language_level=3
 from cython cimport boundscheck, wraparound
 
 from h3._cy.h3lib cimport H3int
